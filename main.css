@@ -4,14 +4,10 @@ body {
 
 #many-pets {
     display: flex;
-flex-flow: row wrap;
--webkit-flex-flow: row wrap;
-justify-content: space-evenly;
-max-width: 1000px;
-
-
-
-
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
 }
 
 .pet {
@@ -20,22 +16,37 @@ max-width: 1000px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
-     
     max-width: 100%;
     border: 1px solid black;
-    padding: 2px;
     text-align: center;
     background-color: oldlace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .pet img {
-    max-width: 100%;
-    max-height: 100px;
+    max-width: 75%;
+    height: auto;
     
 }
 
 .type {
-    background-color: purple;
+    /* background-color: aquamarine; */
     align-items: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+.dino {
+background-color: green;
+}
+
+.dog {
+    background-color: yellow;
+}
+.cat {
+    background-color: red;
 }
 
 #pet-buttons {

@@ -221,11 +221,11 @@ const petBuilder = (monkeybutts) => {
     monkeybutts.forEach((pet) => {
         
         domString += `<div class="pet">`;
-        domString += `<h4>${pet.name}</h4>`;
+        domString += `<div class="name"><h4>${pet.name}</h4></div>`;
         domString += `<img src="${pet.imageUrl}">`;
         domString += `<h4>${pet.color}</h4>`;
         domString += `<h4>${pet.specialSkill}</h4>`;
-        domString += `<h4 class="type">${pet.type}</h4>`;
+        domString += `<div class="type ${pet.type}"><h4>${pet.type}</h4></div>`;
         domString += `</div>`;
         
 
