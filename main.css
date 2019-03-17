@@ -1,17 +1,14 @@
 body {
     background-color: skyblue;
+    font-family: verdana;
 }
 
 #many-pets {
     display: flex;
-flex-flow: row wrap;
--webkit-flex-flow: row wrap;
-justify-content: space-evenly;
-max-width: 1000px;
-
-
-
-
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
 }
 
 .pet {
@@ -20,22 +17,40 @@ max-width: 1000px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
-     
     max-width: 100%;
     border: 1px solid black;
-    padding: 2px;
     text-align: center;
     background-color: oldlace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: verdana;
+    
 }
 .pet img {
-    max-width: 100%;
-    max-height: 100px;
+    max-width: 75%;
+    height: auto;
+    border: 1px solid black;
     
 }
 
 .type {
-    background-color: purple;
+    /* background-color: aquamarine; */
     align-items: center;
+    margin-top: auto;
+    width: 100%;
+    font-family: verdana;
+}
+
+.dino {
+background-color: blue;
+}
+
+.dog {
+    background-color: green;
+}
+.cat {
+    background-color: red;
 }
 
 #pet-buttons {
@@ -43,15 +58,15 @@ max-width: 1000px;
 }
 
 #All {
-    background-color: blueviolet;
+    background-color: white;
 }
 #cat {
     background-color: red;
 }
 #dog {
-    background-color: yellow;
+    background-color: green;
 }
 #dino {
-    background-color: green;
+    background-color: blue;
 }
 
