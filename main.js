@@ -1,8 +1,8 @@
 const pets = [
     {
       name: "Dusty",
-      color: "Green",
-      specialSkill: "Gives sincere apologies.",
+      color: "Benghaziiiiiii!",
+      specialSkill: "Charlie Daniels",
       type: "cat",
       imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg"
     },
@@ -224,7 +224,7 @@ const petBuilder = (monkeybutts) => {
         domString += `<div class="name"><h4>${pet.name}</h4></div>`;
         domString += `<img src="${pet.imageUrl}">`;
         domString += `<h4>${pet.color}</h4>`;
-        domString += `<h4>${pet.specialSkill}</h4>`;
+        domString += `<h4>Running mate: ${pet.specialSkill}</h4>`;
         domString += `<div class="type ${pet.type}"><h4>${pet.type}</h4></div>`;
         domString += `</div>`;
         

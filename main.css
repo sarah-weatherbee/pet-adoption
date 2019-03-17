@@ -1,5 +1,6 @@
 body {
     background-color: skyblue;
+    font-family: verdana;
 }
 
 #many-pets {
@@ -23,11 +24,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: verdana;
     
 }
 .pet img {
     max-width: 75%;
     height: auto;
+    border: 1px solid black;
     
 }
 
@@ -36,14 +39,15 @@ body {
     align-items: center;
     margin-top: auto;
     width: 100%;
+    font-family: verdana;
 }
 
 .dino {
-background-color: green;
+background-color: blue;
 }
 
 .dog {
-    background-color: yellow;
+    background-color: green;
 }
 .cat {
     background-color: red;
@@ -54,15 +58,15 @@ background-color: green;
 }
 
 #All {
-    background-color: blueviolet;
+    background-color: white;
 }
 #cat {
     background-color: red;
 }
 #dog {
-    background-color: yellow;
+    background-color: green;
 }
 #dino {
-    background-color: green;
+    background-color: blue;
 }
 
